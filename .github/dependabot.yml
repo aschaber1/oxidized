@@ -6,6 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions"
+    target-branch: "master"
     directory: "/"
     schedule:
       interval: "daily"
@@ -13,6 +14,7 @@ updates:
     labels:
       - dependencies
   - package-ecosystem: "bundler"
+    target-branch: "master"
     directory: "/"
     schedule:
       interval: "daily"
@@ -20,6 +22,7 @@ updates:
     labels:
       - dependencies
   - package-ecosystem: "github-actions"
+    target-branch: "master"
     directory: "/"
     schedule:
       interval: "daily"
