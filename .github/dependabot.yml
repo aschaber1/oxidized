@@ -12,7 +12,7 @@ updates:
     open-pull-requests-limit: 10
     labels:
       - dependencies
-  - package-ecosystem: "gem"
+  - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "daily"
