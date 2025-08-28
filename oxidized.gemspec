@@ -43,6 +43,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rubocop-minitest',    '~> 0.35.0'
   s.add_development_dependency 'rubocop-rake',        '~> 0.6.0'
   s.add_development_dependency 'simplecov',           '~> 0.22.0'
-  s.add_development_dependency 'simplecov-cobertura', '~> 2.1.0'
+  s.add_development_dependency 'simplecov-cobertura', '~> 3.1.0'
   s.add_development_dependency 'simplecov-html',      '~> 0.12.3'
 end
