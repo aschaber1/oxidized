@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'net-ftp',              '~> 0.2'
   s.add_runtime_dependency 'net-http-digest_auth', '~> 1.4'
   s.add_runtime_dependency 'net-scp',              '~> 4.0'
-  s.add_runtime_dependency 'net-ssh',              '~> 7.1'
+  s.add_runtime_dependency 'net-ssh',              '>= 7.1', '< 9.0'
   s.add_runtime_dependency 'net-telnet',           '~> 0.2'
   s.add_runtime_dependency 'psych',                '> 3.3.2'
   s.add_runtime_dependency 'rugged',               '~> 1.6'
